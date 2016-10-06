@@ -9,6 +9,7 @@
 	$arrTxt["governmentofcanada"] = "Government of Canada";
 	$arrTxt["languageselection"] = "Language selection";
 	$arrTxt["otherlang"] = "Français";
+	$arrTxt["logout"] = "Logout";
 	$arrTxt["searchandmenus"] = "Search and menus";
 	$arrTxt["governmentofcanadasymbol"] = "Symbol of the Government of Canada";
 	$arrTxt["search"] = "Search";
@@ -16,3 +17,5 @@
 	$arrTxt["topicsmenu"] = "Topics menu";
 	$arrTxt["youarehere"] = "You are here:";
 	$arrTxt["datemodified"] = "Date modified:";
+
+	$arrTxt["login"] = "Login";

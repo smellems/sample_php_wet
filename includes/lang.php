@@ -1,6 +1,4 @@
 <?php
-	// Start the session
-	session_start();
 	if (isset($_GET["l"]) && in_array($_GET["l"], ["en", "fr"]))
 	{
 		$lang = $_GET["l"];

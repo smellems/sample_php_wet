@@ -21,6 +21,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <script src="../wet-boew/js/ie8-wet-boew.min.js"></script>
 <![endif]-->
 <noscript><link rel="stylesheet" href="../wet-boew/css/noscript.min.css" /></noscript>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
 <ul id="wb-tphp">
@@ -39,8 +40,8 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="./wet-boew/assets/sig-blk-en.svg" aria-label="<?php print($arrTxt['governmentofcanada']); ?>"></object>
 <section id="wb-lng"><h2><?php print($arrTxt['languageselection']); ?></h2>
 <ul class="list-inline">
-<li>
 <?php
+	print("<li>");
 	if ($lang == "en")
 	{
 		print("<a lang=\"fr\" href=\"?l=fr\">");
@@ -48,8 +49,8 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 		print("<a lang=\"en\" href=\"?l=en\">");
 	}
 	print($arrTxt['otherlang'] . "</a>");
+	print("</li>");
 ?>
-</li>
 </ul>
 </section>
 <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
@@ -92,9 +93,15 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <h2><?php print($arrTxt['topicsmenu']); ?></h2>
 <div class="row">
 <ul class="list-inline menu">
-<li><a href="#">Home</a></li>
-<li><a href="#">First Page</a></li>
+<li><a href="index.php">Home</a></li>
+<li><a href="#">Page</a></li>
 <li><a href="#">Other Page</a></li>
+<?php
+	if ($_SESSION["user"] == true)
+	{
+		print("<li><a href=\"logout.php\">" . $arrTxt["logout"] . "</a></li>");
+	}
+?>
 </ul>
 </div>
 </div>

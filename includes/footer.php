@@ -45,7 +45,7 @@
 </footer>
 -->
 <!--[if gte IE 9 | !IE ]><!-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<!-- Moved jQuery to header -->
 <script src="./wet-boew/js/wet-boew.min.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>
@@ -55,3 +55,6 @@
 <script src="./wet-boew/js/theme.min.js"></script>
 </body>
 </html>
+<?php
+	mysqli_close($conn);
+?>

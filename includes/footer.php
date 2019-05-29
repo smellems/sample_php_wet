@@ -46,13 +46,13 @@
 -->
 <!--[if gte IE 9 | !IE ]><!-->
 <!-- Moved jQuery to header -->
-<script src="./wet-boew/js/wet-boew.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/js/wet-boew.min.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>
-<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/js/ie8-wet-boew2.min.js"></script>
 
 <![endif]-->
-<script src="./wet-boew/js/theme.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/js/theme.min.js"></script>
 </body>
 </html>
 <?php

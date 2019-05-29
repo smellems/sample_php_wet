@@ -11,17 +11,17 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <meta name="description" content="<?php print($arrTxt['metadescription']); ?>">
 <!-- Meta data-->
 <!--[if gte IE 9 | !IE ]><!-->
-<link href="./wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="./wet-boew/css/theme.min.css">
+<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/css/theme.min.css">
 <!--<![endif]-->
 <!--[if lt IE 9]>
-<link href="./wet-boew/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="./wet-boew/css/ie8-theme.min.css" />
+<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/css/ie8-theme.min.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../wet-boew/js/ie8-wet-boew.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/js/ie8-wet-boew.min.js"></script>
 <![endif]-->
-<noscript><link rel="stylesheet" href="../wet-boew/css/noscript.min.css" /></noscript>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<noscript><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/css/noscript.min.css" /></noscript>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
 <ul id="wb-tphp">
@@ -37,7 +37,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <div id="wb-bar">
 <div class="container">
 <div class="row">
-<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="./wet-boew/assets/sig-blk-en.svg" aria-label="<?php print($arrTxt['governmentofcanada']); ?>"></object>
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/assets/sig-blk-en.svg" aria-label="<?php print($arrTxt['governmentofcanada']); ?>"></object>
 <section id="wb-lng"><h2><?php print($arrTxt['languageselection']); ?></h2>
 <ul class="list-inline">
 <?php
@@ -67,7 +67,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <div class="row">
 <div id="wb-sttl" class="col-md-12">
 <a href="index.php"><span><?php print($arrTxt['title']); ?></span></a>
-<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="./wet-boew/assets/wmms-intra.svg" aria-label="<?php print($arrTxt['governmentofcanadasymbol']); ?>"></object>
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/assets/wmms-intra.svg" aria-label="<?php print($arrTxt['governmentofcanadasymbol']); ?>"></object>
 </div>
 
 <!-- Search -->
